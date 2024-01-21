@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => {
           className="nav_logo-link w-nav-brand"
         >
           <div className="logo-embed w-embed">
-            Darwin
+            <strong>Darwin</strong>
           </div>
           <div className="hide">Homepage</div>
         </a>
@@ -101,7 +101,7 @@ const Header = ({ siteTitle }) => {
               </div>
               <div>School Solutions</div>
             </div>
-            <nav
+           {isDropdownOneOpen? <nav
               className="nav_item-dropdown-list w-dropdown-list w--open"
               id="w-dropdown-list-0"
               aria-labelledby="w-dropdown-toggle-0"
@@ -293,7 +293,7 @@ const Header = ({ siteTitle }) => {
                   </div>
                 </div>
               </div>
-            </nav>
+            </nav>:""}
           </div>
           <div
             data-hover="false"

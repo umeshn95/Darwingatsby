@@ -420,9 +420,9 @@ const Landingpage = () => (
                       one step ahead to ensure every student thrives.
                     </p>
                   </div>
-                  <a
+                  <Link
                     data-text-color=""
-                    href="/school-solution/student-early-warning-software"
+                    to="/contact"
                     className="button is-link w-inline-block"
                   >
                     <div>Learn more</div>
@@ -450,7 +450,7 @@ const Landingpage = () => (
                         />
                       </svg>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="feature_item">
                   <div className="content-wrapper">
@@ -471,9 +471,9 @@ const Landingpage = () => (
                       student toward&nbsp;success.
                     </p>
                   </div>
-                  <a
+                  <Link
                     data-text-color=""
-                    href="/use-case/k-12-student-achievement-student-risk-software"
+                    to="/contact"
                     className="button is-link w-inline-block"
                   >
                     <div>Learn more</div>
@@ -501,7 +501,7 @@ const Landingpage = () => (
                         />
                       </svg>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="feature_item">
                   <div className="content-wrapper">
@@ -522,9 +522,9 @@ const Landingpage = () => (
                       guide you toward impactful&nbsp;decisions.
                     </p>
                   </div>
-                  <a
+                  <Link
                     data-text-color=""
-                    href="/school-performance-software"
+                    to="/contact"
                     className="button is-link w-inline-block"
                   >
                     <div>Learn more</div>
@@ -552,7 +552,7 @@ const Landingpage = () => (
                         />
                       </svg>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="spacer-xxlarge" />
@@ -815,7 +815,7 @@ const Landingpage = () => (
                       </div>
                       <Link
                         data-text-color=""
-                        href="/fandpassessment"
+                        to="/fandpassessment"
                         className="button is-link w-inline-block"
                       >
                         <div>Learn more</div>
@@ -903,7 +903,7 @@ const Landingpage = () => (
                       </div>
                       <Link
                         data-text-color=""
-                        href="/nweamap"
+                        to="/nweamap"
                         className="button is-link w-inline-block"
                       >
                         <div>Learn more</div>
