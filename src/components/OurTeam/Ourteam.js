@@ -472,7 +472,7 @@ const Ourteam = () => {
         />
       </div>
     </section>
-    <section
+    {/* <section
       data-w-id="6b8710f8-6c9f-9352-2c5b-5f22f5f76a12"
       className="section_about-value"
     >
@@ -1113,8 +1113,8 @@ const Ourteam = () => {
           }}
         />
       </div>
-    </section>
-    <section id="team" className="section_about-team">
+    </section> */}
+    {/* <section id="team" className="section_about-team">
       <div className="padding-global">
         <div className="container-large">
           <div className="padding-section-medium">
@@ -6712,7 +6712,7 @@ const Ourteam = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     <section className="section_cta">
       <div className="padding-global">
         <div className="container-small">
