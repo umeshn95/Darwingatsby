@@ -2278,7 +2278,7 @@ const Landingpage = () => (
         />
       </div>
     </section> */}
-    <section className="section_logo">
+    {/* <section className="section_logo">
       <div className="padding-global">
         <div className="container-medium">
           <div className="spacer-medium" />
@@ -2597,7 +2597,7 @@ const Landingpage = () => (
           <div className="spacer-huge" />
         </div>
       </div>
-    </section>
+    </section> */}
     <section className="section_cta">
       <div className="padding-global">
         <div className="container-small">

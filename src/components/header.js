@@ -69,7 +69,7 @@ const Header = ({ siteTitle }) => {
             data-delay={300}
             data-w-id="f8a2b19c-c8d2-77f8-bfd8-dcfeae7f7f36"
             className="nav_item-dropdown-component w-dropdown"
-            style={{ zIndex: isDropdownOneOpen ? 901 : undefined }}
+            style={{ zIndex: isDropdownOneOpen ? 901 : "" }}
 
           >
             <div
@@ -82,7 +82,7 @@ const Header = ({ siteTitle }) => {
               tabIndex={0}
               onClick={toggleDropdownOne}
             >
-              <div className="dropdown-icon w-embed" style={{transform:isDropdownOneOpen?"transform: transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(180deg) skew(0deg, 0deg);":"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);", transformStyle:"preserve-3d" }}>
+              <div className="dropdown-icon w-embed" style={{transform:isDropdownOneOpen?"translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(180deg) skew(0deg, 0deg);":"translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);", transformStyle:"preserve-3d" }}>
                 <svg
                   aria-hidden="true"
                   role="img"
@@ -108,7 +108,7 @@ const Header = ({ siteTitle }) => {
               style={{
                 opacity: isDropdownOneOpen?1:0,
   transform: isDropdownOneOpen
-    ? "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg)"
+    ? "translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)"
     : "translate3d(0px, 3rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);",
   transformStyle: "preserve-3d"
               }}
@@ -327,7 +327,7 @@ const Header = ({ siteTitle }) => {
                   />
                 </svg> */}
               </div>
-              <Link to='/whydarwin'><div>Why Darwin</div></Link>
+              <Link style={{textDecoration:"none"}} to='/whydarwin'><div>Why Darwin</div></Link>
             </div>
             <nav
               className="nav_darwin-dropdown-list is-box-shadow w-dropdown-list"
@@ -857,7 +857,7 @@ const Header = ({ siteTitle }) => {
                   />
                 </svg>
               </div> */}
-              <Link to='/career'> <div>Career</div> </Link>
+              <Link style={{textDecoration:"none"}} to='/career'> <div>Career</div> </Link>
             </div>
             <nav
               className="nav_item-dropdown-list w-dropdown-list"
@@ -1069,7 +1069,7 @@ const Header = ({ siteTitle }) => {
             href="/demo"
             className="button is-nav hide-mobile-landscape w-inline-block"
           >
-            <Link to='/contact'><div>Get a tour</div></Link>
+            <Link style={{textDecoration:"none"}} to='/contact'><div>Get a tour</div></Link>
             <div
               className="icon-embed-xxsmall w-embed"
               style={{
@@ -1130,7 +1130,7 @@ const Header = ({ siteTitle }) => {
     data-delay={300}
     data-w-id="f8a2b19c-c8d2-77f8-bfd8-dcfeae7f7f36"
     className="nav_item-dropdown-component w-dropdown w--nav-dropdown-open"
-    style={{zIndex:isDropdownTwoOpen?901:undefined}}
+    style={{zIndex:isDropdownTwoOpen?901:""}}
   >
     <div
     onClick={toggleDropdownTwo}
@@ -1163,8 +1163,8 @@ const Header = ({ siteTitle }) => {
     </div>
     <nav
       className={`nav_item-dropdown-list w-dropdown-list w--nav-dropdown-list-open ${isDropdownTwoOpen?"w--open":""}`}
-      id="w-dropdown-list-0"
-      aria-labelledby="w-dropdown-toggle-0"
+      id={isDropdownTwoOpen?"":"w-dropdown-list-0"}
+      aria-labelledby={isDropdownTwoOpen?"":"w-dropdown-toggle-0"}
       style={{ height:!isDropdownTwoOpen? 0:"auto",width:"305"  }}
     >
       <div className="nav_item-dropdown-container">
@@ -1766,7 +1766,7 @@ const Header = ({ siteTitle }) => {
       role="button"
       tabIndex={0}
     >
-      <div className="dropdown-icon w-embed">
+      <div className="dropdown-icon w-embed" >
         <svg
           aria-hidden="true"
           role="img"
