@@ -29,7 +29,11 @@ const Header = ({ siteTitle }) => {
     };
   }, []);
 
- return (<div className="nav_component-wrapper">
+ return (
+<>
+
+  
+ <div className="nav_component-wrapper">
     <div
       data-animation="default"
       className="nav_component w-nav"
@@ -1944,7 +1948,10 @@ const Header = ({ siteTitle }) => {
 </nav>
  </div>
     </div>
-  </div>)
+  </div>
+</>
+  
+  )
 
             }
 

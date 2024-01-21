@@ -8,6 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import {Link} from 'gatsby'
+import toast, { Toaster } from 'react-hot-toast'
 
 import Header from "./header"
 import "./layout.css"
@@ -28,26 +29,59 @@ const Layout = ({ children }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+     // Validation logic
+  let isValid = true;
+  let errors = {};
 
-    // Replace with your API endpoint URL
-    const apiUrl = 'https://contactapi-for-darwin.onrender.com/api/newsletter';
+  // Validate First Name
+  if (!formData.firstname || formData.firstname.trim() === '') {
+    isValid = false;
+    toast.error('First Name is Required');
+  }
 
-    fetch(apiUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log('Form submission successful:', data);
-        // Handle success or any other actions you need here
-      })
-      .catch((error) => {
-        console.error('Form submission error:', error);
-        // Handle errors or display error messages here
-      });
+  // Validate Last Name
+  if (!formData.lastname || formData.lastname.trim() === '') {
+    isValid = false;
+    toast.error('Last Name is Required');
+
+  }
+
+  // Validate Email
+  if (!formData.email || formData.email.trim() === '') {
+    isValid = false;
+    toast.error('Email  is Required');
+
+  } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+    isValid = false;
+    toast.error('Email is invalid');
+
+  }
+
+  // If validation fails, show errors and stop form submission
+     // Replace with your API endpoint URL
+     const apiUrl = 'https://contactapi-for-darwin.onrender.com/api/newsletter';
+
+     fetch(apiUrl, {
+       method: 'POST',
+       headers: {
+         'Content-Type': 'application/json',
+       },
+       body: JSON.stringify(formData),
+     })
+       .then((response) => response.json())
+       .then((data) => {
+         console.log('Form submission successful:', data);
+        if(isValid){ toast.success('Your Request Submitted Success')}
+         // Handle success or any other actions you need here
+       })
+       .catch((error) => {
+         console.error('Form submission error:', error);
+         // Handle errors or display error messages here
+       });
+
+    
+    
+   
   };
 
   const data = useStaticQuery(graphql`
@@ -184,6 +218,7 @@ const Layout = ({ children }) => {
                   className="hbspt-form"
                   data-hs-forms-root="true"
                 >
+                 <Toaster />
                     <form
         id="hsForm_f70088a9-e842-45c9-9d71-31dceb3907cf"
         method="POST"

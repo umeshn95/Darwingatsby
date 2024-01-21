@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import toast, { Toaster } from 'react-hot-toast'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -17,6 +18,33 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    let isValid = true;
+    let newErrors = {};
+  
+    if (!formData.firstname.trim()) {
+      isValid = false;
+      toast.error('FirstName is Required')
+
+    }
+  
+  
+    if (!formData.email.trim()) {
+      isValid = false;
+
+      toast.error('Email is Required')
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      isValid = false;
+
+      toast.error('Email is Invalid')
+    }
+  
+    if (!formData.message.trim()) {
+      isValid = false;
+
+      toast.error("Message is Required")
+    }
+
+    
     try {
       const response = await fetch('https://contactapi-for-darwin.onrender.com/api/contact', {
         method: 'POST',
@@ -29,7 +57,9 @@ const Contact = () => {
       if (response.ok) {
         const result = await response.json();
         if (result.success) {
-          alert('Submission received successfully!');
+         if(isValid){
+          toast.success("Successfully Submitted")
+         }
           // You can reset the form or perform other actions after a successful submission
         } else {
           alert('Submission failed. Please check the form fields.');
