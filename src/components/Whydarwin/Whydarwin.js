@@ -1914,7 +1914,7 @@ const Whydarwin = () => {
                             loading="lazy"
                             width={500}
                             alt="darwin software graphic featuring financial dashboards."
-                            src="https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/6504603b66469c85e246ae18_darwin-finance-portal-image-02.webp"
+                            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705776420/whydarwinmodule2_xvkeyg.png"
                             sizes="(max-width: 767px) 92vw, (max-width: 991px) 43vw, 29vw"
                             srcSet="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705762842/whydarwinmodule1_idkrlx.png"
                             className="image-wrapper_image"
@@ -1982,9 +1982,9 @@ const Whydarwin = () => {
                             loading="lazy"
                             width={500}
                             alt="darwin platform screenshot featuring financial data."
-                            src="https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/65046067ca511cf62da9f426_darwin-early-warning-portal-image-02.webp"
+                            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705777022/whydarwinmodule3_cblvyl.png"
                             sizes="(max-width: 767px) 92vw, (max-width: 991px) 43vw, 29vw"
-                            srcSet="https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/65046067ca511cf62da9f426_darwin-early-warning-portal-image-02-p-500.webp 500w, https://res.cloudinary.com/dvmqfke8w/image/upload/v1705776420/whydarwinmodule2_xvkeyg.png 800w, https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/65046067ca511cf62da9f426_darwin-early-warning-portal-image-02-p-1080.webp 1080w, https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/65046067ca511cf62da9f426_darwin-early-warning-portal-image-02.webp 1100w"
+                            srcSet="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705777022/whydarwinmodule3_cblvyl.png"
                             className="image-wrapper_image"
                           />
                         </div>
@@ -2052,7 +2052,7 @@ const Whydarwin = () => {
                             alt="darwin platform screenshot featuring financial data."
                             src="https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/6504599977748bd2f3ecefe9_darwin-academic-portal-image-01.webp"
                             sizes="(max-width: 767px) 92vw, (max-width: 991px) 43vw, 29vw"
-                            srcSet="https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/6504599977748bd2f3ecefe9_darwin-academic-portal-image-01-p-500.webp 500w, https://res.cloudinary.com/dvmqfke8w/image/upload/v1705777022/whydarwinmodule3_cblvyl.png 800w, https://assets-global.website-files.com/64ecc548af720ceec70c8b7c/6504599977748bd2f3ecefe9_darwin-academic-portal-image-01.webp 1100w"
+                            srcSet="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705776420/whydarwinmodule2_xvkeyg.png"
                             className="image-wrapper_image"
                           />
                         </div>

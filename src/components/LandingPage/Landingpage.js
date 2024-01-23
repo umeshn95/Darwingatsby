@@ -2724,7 +2724,7 @@ const Landingpage = () => (
                 </Link>
               </div>
               <img
-                src="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/64e74511b01ee5b84275f367_arrow-element-darwin.svg"
+                src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705988026/64e74511b01ee5b84275f367_arrow-element-darwin_fxkyfg.svg"
                 loading="lazy"
                 width={187}
                 height={107}

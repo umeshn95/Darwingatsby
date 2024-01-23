@@ -231,12 +231,12 @@ const Ourteam = () => {
                       >
                         <div className="image-wrapper-4-3 is-rounded-image is-box-shadow z-index-2">
                           <img
-                            src="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650457d3ed60b904f0fbddc4_darwin-finance-portal-image-02.webp"
+                            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705732477/darwinheaderimage1_imvdfp.png"
                             loading="eager"
                             width="324.5"
                             height={235}
                             alt="darwin financial portal image."
-                            srcSet="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650457d3ed60b904f0fbddc4_darwin-finance-portal-image-02-p-500.webp 500w, https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650457d3ed60b904f0fbddc4_darwin-finance-portal-image-02-p-800.webp 800w, https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650457d3ed60b904f0fbddc4_darwin-finance-portal-image-02-p-1080.webp 1080w, https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650457d3ed60b904f0fbddc4_darwin-finance-portal-image-02.webp 1298w"
+                            srcSet="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705732477/darwinheaderimage1_imvdfp.png"
                             sizes="(max-width: 479px) 53vw, (max-width: 991px) 46vw, 22vw"
                             className="image-wrapper_image is-aligned-right"
                           />
@@ -294,12 +294,12 @@ const Ourteam = () => {
                 className="image-wrapper-4-3 is-rounded-image is-box-shadow"
               >
                 <img
-                  src="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650c4b7e13e3fb7a3ca5a929_darwin-team-image.webp"
+                  src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705988603/teamcompany_mq2xu5.png"
                   loading="eager"
                   width={649}
                   height={475}
                   alt="darwin team photograph."
-                  srcSet="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650c4b7e13e3fb7a3ca5a929_darwin-team-image-p-500.webp 500w, https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650c4b7e13e3fb7a3ca5a929_darwin-team-image.webp 800w"
+                  srcSet="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705988603/teamcompany_mq2xu5.png"
                   sizes="(max-width: 767px) 92vw, (max-width: 991px) 90vw, 35vw"
                   className="image-wrapper_image"
                 />

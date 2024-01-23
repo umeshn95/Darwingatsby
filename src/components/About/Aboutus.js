@@ -299,7 +299,7 @@ const Aboutus = () => {
                   width={649}
                   height={475}
                   alt="darwin team photograph."
-                  srcSet="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650c4b7e13e3fb7a3ca5a929_darwin-team-image-p-500.webp 500w, https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650c4b7e13e3fb7a3ca5a929_darwin-team-image.webp 800w"
+                  srcSet="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705988603/teamcompany_mq2xu5.png"
                   sizes="(max-width: 767px) 92vw, (max-width: 991px) 90vw, 35vw"
                   className="image-wrapper_image"
                 />
@@ -6834,7 +6834,7 @@ const Aboutus = () => {
                 </Link>
               </div>
               <img
-                src="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/64e74511b01ee5b84275f367_arrow-element-darwin.svg"
+                src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705988026/64e74511b01ee5b84275f367_arrow-element-darwin_fxkyfg.svg"
                 loading="lazy"
                 width={187}
                 height={107}
