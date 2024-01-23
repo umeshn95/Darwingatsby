@@ -2,8 +2,8 @@ const adapter = require("gatsby-adapter-netlify");
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Darwin Analytics`,
+    description: `Darwin Analytics for School Data Analytics.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
