@@ -118,7 +118,7 @@ const Layout = ({ children }) => {
                 className="footer_logo-link w-nav-brand"
               >
                 <div className="logo-embed w-embed">
-                <strong style={{fontSize:"30px"}}>𝕯𝖆𝖗𝖜𝖎𝖓</strong>
+                <strong style={{fontSize:"30px"}}>Darwin</strong>
 
                 </div>
                 <div className="hide">Homepage</div>

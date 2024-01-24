@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => {
           className="nav_logo-link w-nav-brand"
         >
           <div className="logo-embed w-embed">
-            <strong style={{fontSize:"30px"}}>𝕯𝖆𝖗𝖜𝖎𝖓</strong>
+            <strong style={{fontSize:"30px"}}>Darin</strong>
           </div>
           <div className="hide">Homepage</div>
         </a>
@@ -1347,7 +1347,7 @@ const Header = ({ siteTitle }) => {
           />
         </svg> */}
       </div>
-      <Link to='/whydarwin'><div>Why Darwin</div></Link>
+      <Link to='/whydarwin' style={{textDecoration:"none"}}><div>Why Darwin</div></Link>
     </div>
     <nav
       className="nav_darwin-dropdown-list is-box-shadow w-dropdown-list w--nav-dropdown-list-open"
@@ -1771,23 +1771,9 @@ const Header = ({ siteTitle }) => {
       tabIndex={0}
     >
       <div className="dropdown-icon w-embed" >
-        <svg
-          aria-hidden="true"
-          role="img"
-          aria-label="Arrow down"
-          width="100%"
-          height="100%"
-          viewBox="0 0 13 8"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0.853578 1.56048L6.56058 7.26748L12.2676 1.56048L10.8536 0.146484L6.56058 4.43948L2.26758 0.146484L0.853578 1.56048Z"
-            fill="currentColor"
-          />
-        </svg>
+        
       </div>
-      <Link to='/career'> <div>Career</div> </Link>
+      <Link to='/career' style={{textDecoration:"none"}}>  <div>Career</div> </Link>
     </div>
     <nav
       className="nav_item-dropdown-list w-dropdown-list w--nav-dropdown-list-open"

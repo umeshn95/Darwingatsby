@@ -395,7 +395,7 @@ const Contact = () => {
                           </div>
                           <div className="contact_email">
                             <a
-                              href="mailto:sales@darwin.com"
+                              href="mailto:sales@darwinanalytic.com"
                               className="text-style-link"
                             >
                               sales@darwinanalytic.com
@@ -476,7 +476,7 @@ const Contact = () => {
                 className="image-wrapper-4-3 is-rounded-image is-box-shadow"
               >
                 <img
-                  src="https://assets-global.website-files.com/64e5cf2b369bee13651a6e82/650457d42db63adfdd5f8f27_darwin-finance-portal-image.webp"
+                  src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705732477/darwinheaderimage1_imvdfp.png"
                   loading="lazy"
                   width={540}
                   height={374}
