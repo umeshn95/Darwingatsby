@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => {
           className="nav_logo-link w-nav-brand"
         >
           <div className="logo-embed w-embed">
-            <strong style={{fontSize:"30px"}}>Darwin</strong>
+            <h1 style={{fontSize:"32px"}}>Darwin</h1>
           </div>
           <div className="hide">Homepage</div>
         </a>
@@ -331,7 +331,7 @@ const Header = ({ siteTitle }) => {
                   />
                 </svg> */}
               </div>
-              <Link style={{textDecoration:"none"}} to='/whydarwin'><div>Why Darwin</div></Link>
+              <Link style={{textDecoration:"none"}} to='/whydarwin'><div><strong>Why Darwin</strong></div></Link>
             </div>
             <nav
               className="nav_darwin-dropdown-list is-box-shadow w-dropdown-list"
@@ -861,7 +861,7 @@ const Header = ({ siteTitle }) => {
                   />
                 </svg>
               </div> */}
-              <Link style={{textDecoration:"none"}} to='/career'> <div>Career</div> </Link>
+              <Link style={{textDecoration:"none"}} to='/career'> <div><strong>Career</strong></div> </Link>
             </div>
             <nav
               className="nav_item-dropdown-list w-dropdown-list"
@@ -1073,7 +1073,7 @@ const Header = ({ siteTitle }) => {
             href="/demo"
             className="button is-nav hide-mobile-landscape w-inline-block"
           >
-            <Link style={{textDecoration:"none"}} to='/contact'><div>Get a tour</div></Link>
+            <Link style={{textDecoration:"none"}} to='/contact'><div>Get Started</div></Link>
             <div
               className="icon-embed-xxsmall w-embed"
               style={{
@@ -1109,13 +1109,13 @@ const Header = ({ siteTitle }) => {
             aria-haspopup="menu"
             aria-expanded={isDropdownOneOpen?"true":"false"}
           >
-            <div className="menu-icon" onClick={toggleDropdownOne}>
-              <div className="menu-icon_line-top" style={{ transform:isDropdownOneOpen?"translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);":" translate3d(0px, 8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);", transformStyle:"preserve-3d"}}  />
-              <div className="menu-icon_line-middle" style={{opacity: isDropdownOneOpen?0:1}}>
-                <div className="menu-icon_line-middle-inner" style={{transform:isDropdownOneOpen?"translate3d(0px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);":" translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle:"preserve-3d"}} />
-              </div>
-              <div className="menu-icon_line-bottom" />
-            </div>
+             <div className="menu-icon" onClick={toggleDropdownOne}>
+      <div className="menu-icon_line-top" style={{ transform: isDropdownOneOpen ? "translate3d(0, 5px, 0) rotate(45deg)" : "translate3d(0, 0, 0) rotate(0)", transformStyle: "preserve-3d" }} />
+      <div className="menu-icon_line-middle" style={{ opacity: isDropdownOneOpen ? 0 : 1 }}>
+        <div className="menu-icon_line-middle-inner" style={{ transform: "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d" }} />
+      </div>
+      <div className="menu-icon_line-bottom" style={{ transform: isDropdownOneOpen ? "translate3d(0, -10px, 0) rotate(-45deg)" : "translate3d(0, 0, 0) rotate(0)", transformStyle: "preserve-3d" }} />
+    </div>
           </div>
         </div>
       </div>
@@ -1347,7 +1347,7 @@ const Header = ({ siteTitle }) => {
           />
         </svg> */}
       </div>
-      <Link to='/whydarwin' style={{textDecoration:"none"}}><div>Why Darwin</div></Link>
+      <Link to='/whydarwin' style={{textDecoration:"none"}}><div><strong>Why Darwin</strong></div></Link>
     </div>
     <nav
       className="nav_darwin-dropdown-list is-box-shadow w-dropdown-list w--nav-dropdown-list-open"
@@ -1773,7 +1773,7 @@ const Header = ({ siteTitle }) => {
       <div className="dropdown-icon w-embed" >
         
       </div>
-      <Link to='/career' style={{textDecoration:"none"}}>  <div>Career</div> </Link>
+      <Link to='/career' style={{textDecoration:"none"}}>  <div><strong>Career</strong></div> </Link>
     </div>
     <nav
       className="nav_item-dropdown-list w-dropdown-list w--nav-dropdown-list-open"
