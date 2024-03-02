@@ -6,12 +6,12 @@ import Seo from "../components/seo"
 import Landingpage from "../components/LandingPage/Landingpage"
 
 const IndexPage = () => (
-  // <Layout>
-  //   <div>
-  //       <Landingpage/>
-  //      {/* Add more content and components here */}
-  //   </div>
-  // </Layout>
+  <Layout>
+    <div>
+        <Landingpage/>
+       {/* Add more content and components here */}
+    </div>
+  </Layout>
 )
 
 /**
