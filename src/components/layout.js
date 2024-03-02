@@ -104,7 +104,7 @@ const Layout = ({ children }) => {
           padding: `var(--size-gutter)`,
         }}
       >
-        <main>{children}</main>
+        // <main>{children}</main>
         <footer className="footer_component">
     <div className="padding-global">
       <div className="container-large">
