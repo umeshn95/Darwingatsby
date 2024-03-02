@@ -7,11 +7,11 @@ import Landingpage from "../components/LandingPage/Landingpage"
 
 const IndexPage = () => (
   <Layout>
-    <div>
-        <Landingpage/>
-       {/* Add more content and components here */}
-    </div>
-  </Layout>
+  //   <div>
+  //       <Landingpage/>
+  //      {/* Add more content and components here */}
+  //   </div>
+  // </Layout>
 )
 
 /**
