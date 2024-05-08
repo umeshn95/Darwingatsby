@@ -559,7 +559,7 @@ const Landingpage = () => (
               <div className="stats_component">
                 <div className="stats_layout is-four-column">
                   <div className="stats_item">
-                    <h3 className="stats_heading">1M</h3>
+                    <h3 className="stats_heading">1K</h3>
                     <div className="spacer-xsmall" />
                     <div className="max-width-xxsmall align-center">
                       <h3 className="heading-style-h5">Students Served</h3>
@@ -587,7 +587,7 @@ const Landingpage = () => (
                     className="stats_horizontal-divider"
                   />
                   <div className="stats_item">
-                    <h3 className="stats_heading">350+</h3>
+                    <h3 className="stats_heading">30+</h3>
                     <div className="spacer-xsmall" />
                     <h3 className="heading-style-h5">Reports Available</h3>
                   </div>
@@ -614,7 +614,7 @@ const Landingpage = () => (
                   />
                   <div className="stats_item">
                     <h3 className="heading-style-h5">Over</h3>
-                    <h3 className="stats_heading">400</h3>
+                    <h3 className="stats_heading">4</h3>
                     <div className="spacer-xsmall" />
                     <div className="max-width-xxsmall align-center">
                       <h3 className="heading-style-h5"> Districts Served</h3>
