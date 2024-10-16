@@ -394,8 +394,7 @@ const Landingpage = () => (
                   <div className="spacer-small" />
                   <p className="text-size-medium">
                     {" "}
-                    We put the data at your fingertips so you can spend more
-                    time on what matters.
+                    
                   </p>
                 </div>
               </div>

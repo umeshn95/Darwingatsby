@@ -394,7 +394,7 @@ const Layout = ({ children }) => {
                       href="mailto:support@darwinanalytic.com"
                       className="footer_link"
                     >
-                      support@Darwinanalytic.com
+                      support@darwinanalytic.com
                     </a>
                   </div>
                   <div className="spacer-xsmall" />
